@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+  <form action="/catch/" method="GET">
+    <label for="search">search</label>
+    <input type="text" name="search" id="search">
+    <input type="submit">
+  </form>
+  <form action="https://search.naver.com/search.naver">
+    <label for="search2">네이버 검색</label>
+    <input type="text" name="query" id="search2">
+    <input type="submit">
+  </form>
+{% endblock content %}

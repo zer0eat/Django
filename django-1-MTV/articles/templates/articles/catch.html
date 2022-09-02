@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h1>Catch</h1>
+  {{ m }}
+  <a href="{% url 'articles:throw' %}">throw로 가기위함</a>
+
+{% endblock content %}
